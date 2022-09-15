@@ -155,6 +155,7 @@ img {
   list-style: none;
   padding-left: 93px;
 }
+
 .menu .agency::after {
   position: relative;
   top: 31px;
@@ -176,6 +177,7 @@ img {
   background-color: var(--color-hover);
   border-radius: 2px;
 }
+
 .link {
   font-style: normal;
   font-weight: 500;
@@ -750,4 +752,8 @@ img {
 
 .join li {
   background-color: var(--background-social);
+}
+
+.join svg {
+  fill: var(--color-white);
 }
